@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
+    height: 150vh;
     display: flex;
     flex-direction: column;
     margin: 0px;
@@ -9,9 +10,9 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
+    flex-grow: 0.5;
     padding-left: 10%;
     padding-right: 10%;
-    padding-bottom: 2%;
 }
 .navbar {
     display: flex;
@@ -70,6 +71,7 @@ body {
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 2%;
+    flex-grow: 1;
 }
 .info-content {
     display: flex;
@@ -88,4 +90,51 @@ body {
     height: 200px;
     border: 4px solid #3882F6;
     border-radius: 20px;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    font-style: italic;
+    font-weight: lighter;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+#attr {
+    align-self: center;
+    font-weight: 600;
+    font-style: normal;
+}
+.info-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+.banner {
+    background-color: #3882F6;
+    margin: 10%;
+    padding: 2%;
+    color: #E5E7EB;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#banner-button {
+    color: #E5E7EB;
+    background-color: #3882F6;
+    border: 2px solid #E5E7EB;
+    text-align: center;
+    border-radius: 5px;
+    padding: 6px 18px;
+    box-shadow: none;
+    font-size: 16px;
 }
